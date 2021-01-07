@@ -1,0 +1,70 @@
+<!-- In this page we covered How to create forms and how to input different type of
+values -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Inputs</title>
+</head>
+
+<body>
+    <!-- form tag for creating a form -->
+    <!-- Action tag is for server side programming We can add post get etc. -->
+    <form action="">
+        <!-- div is for creating divisions in code. -->
+        <div>
+            <!-- label is for label of the input field and for tag is we enter the 
+            text if that text matches with the text in id if we click on the name
+            of the field it will get selected -->
+            <label for="fullname">Full Name:</label><br>
+            <!-- input tag is for creating different types of fields for different type
+            of data. name is for the server side to find this field id is for css or label
+            to find this field. placeholder to hold some default value in the field.
+            Which will get erased when we click on the field. -->
+            <!-- Text input tag -->
+            <input type="text" name="fullname" id="fullname" placeholder="Enter Full Name">
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <!-- number input tag for adding just number -->
+            <input type="number" name="age" id="age" placeholder="Enter Age">
+        </div>
+        <div>
+            <!-- radio tag for getting radion input buttons -->
+            <label for="sex">Sex:</label>
+            <input type="radio" name="sex" id="sex" value="male" checked>Male
+            <input type="radio" name="sex" id="sex" value="female">Female
+            <input type="radio" name="sex" id="sex" value="other">Other
+        </div>
+        <div>
+            <label for="birthdate">Date of Birth</label>
+            <!-- date tag for getting date as a value -->
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <div>
+            <label for="email">Email: </label><br>
+            <!-- email tag is for input email -->
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <div>
+            <label for="password">Password:</label><br>
+            <!-- password tag is for adding password field -->
+            <input type="password" name="password" id="password" placeholder="Enter Password">
+        </div>
+        <div>
+            <label for="hobbies">Hobbies:</label>
+            <!-- Checkbox tag is for adding checkbox in the form -->
+            <input type="checkbox" name="hobbies" id="hobbies" value="coding">Coding
+            <input type="checkbox" name="hobbies" id="hobbies" value="music">Music
+            <input type="checkbox" name="hobbies" id="hobbies" value="goingout">Going Out
+        </div>
+        <!-- submit is for submitting the form. -->
+        <input type="submit" value="Submit">
+        <!-- reset is for resetting the form. -->
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
