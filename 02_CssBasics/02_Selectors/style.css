@@ -1,0 +1,18 @@
+/* # is for id */
+/* This is how we choose nested selectors */
+#about h2{
+    color:chartreuse;
+}
+#contact h2{
+    color:coral;
+}
+
+/* . is for selecting classes */
+.font{
+    font-size: 25px;
+}
+/* Multiple Selectors */
+#about, #contact{
+    border-style: solid;
+    border-width: 5px;
+}
