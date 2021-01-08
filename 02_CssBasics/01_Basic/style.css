@@ -1,0 +1,6 @@
+/* This is how we comment in CSS */
+/* This is called external CSS this stylesheet is linked inside the html page 
+we want to style. */
+h3{
+    color:chartreuse;
+}
