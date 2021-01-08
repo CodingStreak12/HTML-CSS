@@ -1,0 +1,65 @@
+<!-- In this page we will learn following:
+1. How to use Div tag and Span tag
+2. What is Div tag and Span tag
+3. What is id 
+4. What is Class
+5. How to use id
+6. How to use class -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs, Spans, Ids, Classes</title>
+    <!-- Styling we will learn in CSS section this is just here for understanding
+    div, span, id and class -->
+    <style>
+        .onlyStyle {
+            border: 1px;
+            border-style: solid;
+            background-color: bisque;
+        }
+
+        #navigation {
+            border-color: coral;
+            border: 1px;
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- In good practice There must be one id associated with one item only in 
+    whole page. -->
+    <!-- Class can be associated with n number of elements in one page. -->
+    <div id="main-header" class="onlyStyle">
+        <h1>This is the main description of the page.</h1>
+    </div>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <div id="about" class="onlyStyle">
+        <h3>About</h3>
+        <!-- span is inline element
+        Where div is block level element -->
+        <p>Lorem ipsum dolor,<span class="onlyStyle">sit amet consectetur</span>
+        <div class="onlyStyle">adipisicing elit.</div> Impedit perspiciatis incidunt amet magni quod quo
+        ullam repellendus dolores adipisci dolor.</p>
+    </div>
+    <div id="contact" class="onlyStyle">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
