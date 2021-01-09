@@ -1,0 +1,16 @@
+/* In this page of code we will learn about coloring fonts. There are three ways we can color */
+/* We can simply write the name of the color we want for our font. */
+h1{
+    color:green;
+}
+/* We can simply give rgb value which is between 0 and 255 */
+h2{
+    color:rgb(255, 0, 0);
+}
+/* This is the most commonly used way to color font */
+/* We can give hex value which starts with 0 and ends with f. f being the highest */
+/* hex values are also simply rbg values where first two zero represents red. Next two 
+represent green and last two represent blue */
+h3{
+    color: #00ff00;
+}
