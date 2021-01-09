@@ -10,4 +10,3 @@ This section of the course is for CSS Basics we will cover stuff given below:
 9. Creating Menus
 10. Positioning
 11. Form Styling
-12. Dev Tools

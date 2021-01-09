@@ -1,0 +1,23 @@
+/* Selecting the whole body and changing the font of the whole page. */
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/* Changing the size of the all h2 in the page */
+h2{
+    font-size: 40px;
+}
+/* Changing the size of the all the p in the page */
+/* Changing the gap between the lines inside the p tag */
+p{
+    font-size: 20px;
+    line-height: 40px;
+}
+/* Changing the weight of the span inside the div welcome */
+#welcome p span{
+    font-weight: bold;
+}
+/* Changing the style of the span inside the div about */
+#about p span{
+    font-style: italic;
+}
