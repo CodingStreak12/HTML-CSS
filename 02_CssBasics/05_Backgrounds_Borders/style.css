@@ -1,0 +1,37 @@
+/* In this code we will learn: 
+1. How to setup border.
+2. How to change border radius
+3. How to change background color
+4. How to set background image.
+5. How to change the properties of the background image. */
+
+
+#box1{
+    border:cyan 5px solid;
+    border-radius: 20px;
+    background-color: darkgrey;
+}
+#box2{
+    border-top: red 3px ridge;
+    border-bottom: red 3px ridge;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#box3{
+    background-image: url(./img/25197.jpg);
+    color:red;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+}
+#box4{
+    background-image: url(./img/meditation_universe_by_pulsatori_d8rznjj.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+    
+}
