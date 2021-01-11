@@ -1,0 +1,25 @@
+/* This page contains styling of link and button */
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+a{
+    /* Text decorations is for underlines etc. */
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color:lightblue;
+    color:maroon;
+    /* cursor to change cursor when it comes on the .btn class */
+    cursor: pointer;
+
+}
+/* Hover is get active when we hover over the .btn class */
+.btn:hover{
+    background-color:powderblue;
+    color:red;
+}

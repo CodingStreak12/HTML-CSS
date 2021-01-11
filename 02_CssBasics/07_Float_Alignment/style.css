@@ -1,0 +1,37 @@
+/* This page of contains how we can align our code. */
+*{
+    box-sizing: border-box;
+}
+/* This is how we clear element otherwise it will go behind floated elements */
+.clr{
+    clear:both;
+}
+body{
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 960px;
+    /* auto is how we center the elements */
+    margin: 30px auto;
+}
+.box{
+    background-color: khaki;
+    border:lightpink 2px solid;
+    padding: 20px;
+    margin-bottom: 30px;
+    /* This helps us to align the text */
+    text-align: center;
+
+}
+#box-2{
+    /* We add float to send our element to the particular direction */
+    float: left;
+    /* For percentage it takes the percentage of the parent element */
+    width:68%;
+}
+#box-3{
+    float: right;
+    width: 30%;
+}
+

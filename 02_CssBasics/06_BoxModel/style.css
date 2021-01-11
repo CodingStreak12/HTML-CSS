@@ -1,0 +1,30 @@
+/* This page will contain:
+1. How to use border-box
+2. How to do css reset
+3. How to use margin
+4. How to use padding */
+
+
+/* This is CSS Reset with this we can reset the default margin, padding etc. */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border box will keep the size of the box same like in this case it is 500px */
+    box-sizing: border-box;
+}
+.box{
+    background-color: darkorchid;
+    border:darkcyan 2px solid;
+    /* This is padding shortcut padding: top right bottom left */
+    padding: 20px 30px 5px 10px;
+    /* Margin is same as padding */
+    margin: 20px 30px 5px 10px;
+    width: 500px;
+}
+p{
+    /* With this it adds margin to the all sides */
+    margin: 5px;
+}
+h1{
+    margin: 5px;
+}
