@@ -1,0 +1,56 @@
+/* This page of program contains how we can create basic navbar and side menu */
+
+/* CSS Reset */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+/* this class is for navbar */
+.navbar{
+    border:lightskyblue 2px solid;
+    background-color: lightslategray;
+    /* overflow is for covering background of all the text that is float */
+    overflow: auto;
+    border-radius: 5px;
+}
+.navbar li{
+    float:right;
+    list-style: none;
+    padding: 15px 25px;
+}
+.navbar li a{
+    text-decoration: none;
+    color:limegreen;
+}
+.navbar li a:hover{
+    color:lime;
+}
+.side-menu{
+    border:black 2px solid;
+    background-color: darkgrey;
+    border-radius: 5px;
+    width:20%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.side-menu li a{
+    text-decoration: none;
+    color:lightblue;
+}
+.side-menu li a:hover{
+    color:lightcoral;
+}
+.side-menu li{
+    border-bottom: 1px black dotted;
+    list-style:none;
+    padding: 30px 40%;
+}
+/* last child is to select the last item in the list. This is psuedo selector */
+.side-menu li:last-child{
+    border:none;
+}
