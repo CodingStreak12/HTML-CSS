@@ -1,0 +1,25 @@
+/* In this page we will learn how to convert inlie to block and block to inline */
+*{
+    box-sizing: border-box;
+}
+/* Converting list element which is block level element to inline element */
+li{
+    display: inline;
+}
+li a{
+    padding: 20px;
+}
+/* Converting img element which is inline element to block level element */
+img{
+    display: block;
+    margin-bottom: 10px;
+}
+/* Converting div which is block element to inline element but using inline-block because
+width and other properties do not work if display is inline*/
+.box{
+    background-color:gainsboro;
+    width: 48%;
+    display: inline-block;
+    margin-right: 20px;
+
+}

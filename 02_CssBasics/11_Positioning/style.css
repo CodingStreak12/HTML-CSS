@@ -1,0 +1,56 @@
+/* This page contains different types of positioning like
+1. absolute
+2. relative
+3. sticky
+4. static
+5. fixed */
+.box{
+    width: 100px;
+    height: 100px;
+}
+body{
+    height: 4000px
+}
+/* With relative we can move the element according to its natural position */
+#box1{
+    background-color: red;
+    position: relative;
+    left: 100px;
+    top: 60px;
+    z-index: 1;
+}
+#container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color:black;
+}
+/* With absolute we can move the element within its container For absolute we need parent
+container to be relative */
+#box2{
+    position: absolute;
+    background-color: blue;
+    bottom: 40px;
+    right: 40px;    
+}
+#box3{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background-color: green;
+    
+}
+/* Fixed will the keep the element stick to its original position */
+#box4{
+    position: fixed;
+    background-color: yellow;
+    
+}
+/* Sticky will stick the element where we want it to be sticked */
+#box5{
+    position: sticky;
+    top: 10px;
+    left: 40px;
+    background-color: orange;
+    
+}
