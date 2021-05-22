@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility, Order, Negative Margin</title>
+    <style>
+        h1{
+            /*visibility: hidden;*/ /* This will hide the element but it will still be there. */
+             /*display: none;*/ /*This will hide the element as well as its presence */
+             color: blue !important /* But if we add important flag only this will work others will not */;
+             margin-top: -30px; 
+             /* We can add negative margin as well but we can not add negative padding. */
+             margin-left: -30px;
+        }
+        .color{
+            color: red; /* But class will always take precedence over the targeting the element.*/
+        }
+    </style>
+</head>
+<body>
+    <h1 class = "color">This is just a heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt assumenda, quaerat non ut exercitationem?</p>    
+</body>
+</html>
