@@ -126,3 +126,80 @@ p{
 #home-info a:hover{
     background-color: #f7c08a;
 }
+
+/* Features */
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+.box-light{
+    background: #fff;
+    color: #333;
+}
+.box-primary{
+    background: #f7c08a;
+    color: #333;
+}
+/* footer */
+.clr{
+    clear: both;
+}
+/* About */
+#about-info{
+    padding-top: 30px;
+    
+}
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 50%;
+}
+#about-info .info-left{
+    width: 50%;
+    float: left;
+    min-height: 100%;
+    padding-left: 30px;
+}
+.l-heading{
+    font-size: 40px;
+}
+.padding{
+    padding-top: 20px;
+}
+#testimonials{
+    height: 600px;
+    background: url(../image_resources/test-bg.jpg) no-repeat center center/cover;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+
+}
+.testimonial{
+    background-color: #f7c08a;
+    color: #333;
+}
+#testimonials .testimonial img{
+    width: 100px;
+}
+
+
+#main-footer{
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding:20px;
+
+}
