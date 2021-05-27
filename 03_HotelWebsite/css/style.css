@@ -187,12 +187,70 @@ p{
     
 
 }
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
 .testimonial{
-    background-color: #f7c08a;
-    color: #333;
+    
 }
 #testimonials .testimonial img{
     width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #f7c08a;
+    color: #333;
+    opacity: 0.8;
+}
+/* Contact-form */
+#contact-form{
+    padding: 30px;                                                         
+}
+#contact-form .container button{
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5%;
+    display: inline-block;
+    font-size: 18px;
+    border: none;
+
+}
+#contact-form .container button:hover{
+    background-color: #f7c08a;
+    cursor: pointer;
+    
+}
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    padding: 10px;
+    width: 100%;
+    border: 1px #ddd solid;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+#contact-form textarea{
+    height: 200px;
+}
+.bg-dark{
+    background:#333;
+    color: #fff;
 }
 
 
@@ -203,3 +261,4 @@ p{
     padding:20px;
 
 }
+
