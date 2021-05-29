@@ -1,0 +1,29 @@
+#box-1{
+    font-size: 20px;
+}
+#box-1 h1{
+    font-size: 3em;
+}
+#box-1 p{
+    font-size: 2em;
+    /* Padding is always decided by the size of the font not the size of the parent in em. */
+    padding: 1em;
+}
+#box-1 ul{
+    font-size: 2em;
+    /* This is the problem with em that the element gets compounded.
+    First ul has size of 40px and nested ul has size of 80px */
+}
+/* Rem styling */
+html{
+    font-size: 10px;
+}
+#box-2 h1{
+    /* This is 50px */
+    font-size: 5rem; 
+}
+#box-2 p{
+    font-size: 2.5rem;
+}
+/* Rem does not compound the size becuase it only depends on the default html size. */
+

@@ -50,6 +50,7 @@ p{
     display: block;
     padding: 20px;
     text-align: center;
+    
 }
 #navbar ul li a:hover,
 #navbar ul li a.current{
@@ -86,7 +87,9 @@ p{
     padding: 20px 15px;
     border-radius: 5%;
     display: inline-block;
-    
+    position: relative;
+    right: 64fpx;
+    margin-top: 7px;
 }
 #showcase .showcase-content a:hover{
     background-color: #f7c08a;

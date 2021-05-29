@@ -1,0 +1,20 @@
+#container{
+    display: flex;
+    flex-direction:row;
+    /* Options: column, column-reverse, row, row-reverse */
+    flex-wrap: wrap;
+    /* Wrap all the flex items and not let them go in one line with giving us slider
+    options: wrap, nowrap, wrap-reverse */
+    flex-flow: row nowrap;
+    /* flex flow is the property that combines flex-directiona and flex-wrap */
+}
+
+.item{
+    background: #f4f4f4;
+    border: #ccc solid 1px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    margin: 0.75rem;
+    
+}
