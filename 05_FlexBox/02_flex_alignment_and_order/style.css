@@ -1,0 +1,33 @@
+
+#container{
+    background: #333;
+    display: flex;
+    justify-content: center;
+    /*Options: flex-start, flex-end, space-around, space-evenly, space-between, center */
+    height: 600px;
+    align-items:baseline;
+    /* Options: flex-start, flex-end, center, baseline, stretch */
+}
+/* We can align single items as well */
+/* We can set the order for the items as well */
+.item-2{
+    align-self: center;
+    order: 3;
+    
+}
+.item-1{
+    order: 1
+}
+.item-2{
+    order: 2;
+}
+.item{
+    background: #f4f4f4;
+    color: #333;
+    border: #ccc solid 1px;
+    padding: 1rem;
+    text-align: center;
+    margin: 0.75rem;
+    flex-basis: 200px;
+    
+}
