@@ -42,7 +42,7 @@ p{
     cursor: pointer;  
 
 }
-.bth-dark{
+.btn-dark{
     background: #333;
     color: #fff;
     cursor: pointer;
@@ -69,6 +69,35 @@ p{
 }
 .py-3{
     padding: 2.5rem 0;
+}
+.p1{
+    padding: 1.5rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.p-3{
+    padding: 3rem;
+}
+.list{
+    margin: 0.5rem 0;
+    list-style: none;
+}
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-primary{
+    background: #93cb52;
+    color: #fff;
 }
 /* Navbar */
 #navbar{
@@ -146,7 +175,60 @@ p{
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+/* Section: Who We Are */
+#who{
+    display: flex;
 
+}
+#who div{
+    flex: 1;
+}
+#who .who-img{
+    background: url(../img/people.jpg) no-repeat
+    center center/cover;
+}
+#who .who-text h3{
+    margin-top: 0.5rem;
+}
+/* Section: Clients */
+#clients .clients-items{
+    display: flex;
+    
+    
+}
+#clients .clients-items img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+/* Section: Contacts */
+#contact{
+    display: flex;
+}
+.contact-form, .map{
+    flex: 1;
+}
+label{
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 1.2rem;
+}
+.form-group{
+    margin: 0.75rem;
+}
+input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+.btn-hover{
+    margin: 0.5rem;
+    width: 98%;
+    padding: 0.5rem;
+}
+.btn-hover:hover{
+    background: #fff;
+    color: #333;
+}
 
 
 
