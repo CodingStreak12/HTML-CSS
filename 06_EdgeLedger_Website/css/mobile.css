@@ -1,0 +1,56 @@
+/* Align icont to left */
+#what .items{
+    display: block;
+}
+/* Smartphones */
+@media(max-width: 500px){
+    #navbar{
+        flex-direction: column;
+        
+    }
+    #navbar .logo{
+        padding-bottom: 0;
+    }
+    #navbar ul li a{
+        padding: 10.8px 12px;
+    }
+    #showcase{
+        margin-top: -5.8rem;
+    }
+    #who .who-img{
+        display: none;
+    }
+    #who{
+        display: block;
+    }
+    #clients .items img{
+        width: 80%;
+    }
+    #clients .clients-items img{
+        width: 80%;
+    }
+    #clients .clients-items div:last-child{
+        display: none;
+    }
+    #contact{
+        flex-direction: column;
+        height: 1000px;
+    }
+   
+    .map{
+        
+        border-top: 4px solid #333;
+        height: 800px;
+        
+    }
+    
+  
+}
+@media(max-height: 569px) , (max-width: 281px){
+    .l-heading{
+        font-size: 3rem;
+        margin-top: 4rem;
+    }
+}
+
+
