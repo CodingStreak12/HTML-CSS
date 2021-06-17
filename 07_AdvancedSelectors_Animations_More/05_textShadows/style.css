@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+h1 {
+  font-size: 3rem;
+  margin: 2rem;
+}
+h1.a {
+  color: white;
+  /* h-shadow | v-shadow | color */
+  text-shadow: 5px 5px steelblue;
+}
+h1.b {
+  color: white;
+  text-shadow: 5px 5px 5px steelblue;
+}
+h1.c {
+  color: black;
+  text-shadow: 5px 5px 1px steelblue;
+}
+h1.d {
+  color: white;
+  text-shadow: -5px -5px 1px steelblue;
+}

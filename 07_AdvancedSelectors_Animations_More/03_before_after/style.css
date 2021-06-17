@@ -1,0 +1,15 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+div::after {
+  content: "Hello";
+  background-color: chartreuse;
+}
+div::before {
+  content: "Veere";
+  background-color: chocolate;
+}

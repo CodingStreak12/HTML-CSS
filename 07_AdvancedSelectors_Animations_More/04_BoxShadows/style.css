@@ -1,0 +1,20 @@
+#container {
+  display: flex;
+}
+.box {
+  background-color: coral;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  /* offset-x | offset-y | color */
+  box-shadow: 5px 5px teal;
+  /* offset-x | offset-y | blur | color */
+  box-shadow: 5px 5px 10px teal;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 5px 5px 5px 10px teal;
+  /* inset offset-x | offset-y | color */
+  box-shadow: inset 15px 15px teal;
+  /* Multiple shadows */
+  box-shadow: 5px 5px teal, -5px -5px olive;
+}

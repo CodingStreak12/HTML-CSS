@@ -1,0 +1,34 @@
+li {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  list-style: none;
+}
+/* To select first child */
+
+li:first-child {
+  background-color: antiquewhite;
+}
+/* To select the last child */
+li:last-child {
+  background-color: aqua;
+}
+/* To select the nth child */
+li:nth-child(3) {
+  background-color: aquamarine;
+}
+/* To select every 3rd child */
+li:nth-child(3n + 0) {
+  background-color: blanchedalmond;
+}
+/* To select every third child after 7th element */
+li:nth-child(3n + 7) {
+  background-color: burlywood;
+}
+/* To select every odd number */
+li:nth-child(odd) {
+  background-color: cadetblue;
+}
+/* To select every even color */
+li:nth-child(even) {
+  background-color: chartreuse;
+}
