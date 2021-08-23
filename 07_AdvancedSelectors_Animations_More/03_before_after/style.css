@@ -13,3 +13,28 @@ div::before {
   content: "Veere";
   background-color: chocolate;
 }
+h1 {
+  position: relative;
+}
+h1::after,
+h1::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  background-image: linear-gradient(to right, red, yellow 70%);
+  transition: all 0.5s;
+}
+h1::after {
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+}
+h1::before {
+  transform-origin: right;
+}
+h1:hover::after,
+h1:hover::before {
+  transform: scaleX(1);
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  animation-name: animate1;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+@keyframes animate1 {
+  from {
+    top: 0px;
+    width: 200px;
+    transform: rotate(0deg);
+  }
+  to {
+    top: 400px;
+    background-color: red;
+    width: 600px;
+    transform: rotate(360deg);
+  }
+}

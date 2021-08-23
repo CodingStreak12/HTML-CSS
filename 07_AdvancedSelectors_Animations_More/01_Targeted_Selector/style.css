@@ -1,20 +1,25 @@
 /* Direct child */
-div > p{
-    background: #ddd;
-
+div > p {
+  background: green;
 }
 /* Directly after */
-div + p{
-    background: #333;
-    color: #fff;
+div + p {
+  background: #333;
+  color: #fff;
 }
 /* By Attribute */
-a[target="_blank"]{
-    background: red;
+a[target="_blank"] {
+  background: red;
 }
 /* Specific Attribute values */
-input[type="text"],
-input[type="email"]{
-    width: 100%;
-    margin-bottom: 1rem;
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+input[type="email"] {
+  width: 400px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: none;
+  border: 2px solid black;
 }
